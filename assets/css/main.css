@@ -1099,6 +1099,81 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   }
 }
 
+section.content {
+  padding: 2rem 0 5rem 0;
+}
+
+section.content.no-bottom {
+  padding: 2rem 0 0rem 0;
+}
+
+section.content .sub-title {
+  padding: 10px 30px;
+  display: inline-block;
+  color: #33ba9c;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+}
+
+@media (max-width: 991px) {
+  section.content .sub-title {
+    padding: 0px 30px;
+    margin-bottom: 0;
+  }
+}
+
+section.content .title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 991px) {
+  section.content .title {
+    line-height: 40px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 2rem;
+  }
+}
+
+section.content p.bold {
+  font-weight: 600;
+}
+
+section.content .ceo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.content .ceo .img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+section.content .ceo .role {
+  font-size: 13px;
+  color: #999;
+}
+
 .partnerships {
   padding: 5rem 0 0;
 }
