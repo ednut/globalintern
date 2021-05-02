@@ -509,6 +509,10 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   font-size: 16px;
 }
 
+.our-services .card-wrap .card a {
+  color: #000;
+}
+
 .our-services .contact-card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -631,6 +635,101 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 .map iframe {
   width: 100%;
   height: 400px;
+}
+
+.brand-color {
+  color: #33ba9c;
+}
+
+.brand-color a {
+  color: #33ba9c !important;
+}
+
+.itali {
+  font-style: italic;
+}
+
+section.steps {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+section.steps .step-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+section.steps .step-title .step {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #33ba9c;
+  position: relative;
+  text-align: center;
+  font-weight: 600;
+}
+
+section.steps .step-title .step .text {
+  position: absolute;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  left: 2px;
+  top: 33px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+section.steps .step-title .step .number {
+  font-size: 57px;
+  position: absolute;
+  left: 43px;
+  top: 7px;
+}
+
+section.steps .step-title .the-title {
+  font-weight: 600;
+  margin-left: 20px;
+  font-size: 23px;
+}
+
+section.steps table {
+  border-collapse: collapse;
+  width: 100%;
+  overflow: auto;
+}
+
+section.steps table tr th {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+
+section.steps table tr td {
+  text-align: left;
+  padding: 10px;
+}
+
+section.steps ul {
+  margin: 0;
+  padding-left: 10px;
+}
+
+section.steps ul li {
+  display: inline-block;
+}
+
+section.steps ul li i {
+  color: #33ba9c;
+}
+
+section.steps ul li .text {
+  font-weight: 600;
 }
 
 .social-platform {
@@ -1105,6 +1204,47 @@ section.content {
 
 section.content.no-bottom {
   padding: 2rem 0 0rem 0;
+}
+
+section.content ol,
+section.content ul {
+  margin: 0;
+  padding-left: 10px;
+}
+
+section.content ol li,
+section.content ul li {
+  margin-bottom: 10px;
+}
+
+section.content ul.segmented-content li {
+  display: inline-block;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+section.content .inner-title {
+  margin: 10px 0;
+}
+
+section.content .inner-title span.icon {
+  display: inline-block;
+}
+
+section.content .inner-title span.icon i {
+  color: #33ba9c;
+}
+
+section.content .inner-title span.text {
+  display: inline-block;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+section.content .content span {
+  display: block;
+  margin-bottom: 5px;
+  line-height: 25px;
 }
 
 section.content .sub-title {

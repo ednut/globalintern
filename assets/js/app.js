@@ -3,7 +3,7 @@ angular.module('myApp.models', []);
 var myApp = angular.module('myApp', [
   'ui.router',
   'myApp.controllers',
-  'myApp.models',
+  'myApp.models'
 ]);
 
 // myApp.config(function($stateProvider, $urlRouterProvider, $locationProvider) { // use this in production
@@ -20,35 +20,40 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('home', {
       url: '/',
-      templateUrl: 'partials/home.html',
+      templateUrl: 'partials/home.html'
     })
 
     .state('about', {
       url: '/about',
-      templateUrl: 'partials/about.html',
+      templateUrl: 'partials/about.html'
     })
 
     .state('services', {
       url: '/services',
-      templateUrl: 'partials/services.html',
+      templateUrl: 'partials/services.html'
     })
 
-    .state('gallery', {
-      url: '/gallery',
-      templateUrl: 'partials/gallery.html',
+    .state('see-how-it-works', {
+      url: '/see-how-it-works',
+      templateUrl: 'partials/see-how-it-works.html'
     })
 
-    .state('newsroom', {
-      url: '/newsroom',
-      templateUrl: 'partials/newsroom.html',
+    .state('be-a-partner', {
+      url: '/be-a-partner',
+      templateUrl: 'partials/be-a-partner.html'
     })
 
-    .state('contact', {
-      url: '/contact',
-      templateUrl: 'partials/contact.html',
+    .state('prep-to-vitual-work', {
+      url: '/prep-to-vitual-work',
+      templateUrl: 'partials/prep-to-vitual-work.html'
+    })
+
+    .state('internships', {
+      url: '/internships',
+      templateUrl: 'partials/internships.html'
     })
 
     .state('404', {
-      templateUrl: 'partials/404.html',
+      templateUrl: 'partials/404.html'
     });
 });
