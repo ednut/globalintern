@@ -51,7 +51,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
   </head>
   <body ng-controller="generalController">
@@ -183,27 +183,14 @@
 
     <!-- <script src="assets/js/jquery.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="assets/js/angularjs/angular.min.js"></script>
     <script src="assets/js/angularjs/angular-animate.js"></script>
     <script src="assets/js/angularjs/angular-ui-router.min.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/controllers/generalController.js"></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script>
-      $('.f-a-q').click(function () {
-        $('html,body').animate(
-          {
-            scrollTop: $('.myfaq').offset().top
-          },
-          'slow'
-        );
-      });
-
       $('.bugger-menu ').click(function () {
         $('.mobile-header').toggle();
       });
