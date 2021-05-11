@@ -700,7 +700,7 @@ section.steps .step-title .the-title {
 
 section.steps table {
   border-collapse: collapse;
-  width: 100%;
+  width: 50%;
   overflow: auto;
 }
 
@@ -730,6 +730,27 @@ section.steps ul li i {
 
 section.steps ul li .text {
   font-weight: 600;
+}
+
+section.steps a.button {
+  background-color: #33ba9c;
+  color: #ffffff !important;
+  font-size: 18px !important;
+  border-radius: 8px;
+  font-weight: 400 !important;
+  padding: 15px 50px;
+  text-transform: capitalize;
+}
+
+section.steps a.button-header {
+  padding: 8px 30px;
+  font-size: 14px !important;
+}
+
+@media (max-width: 991px) {
+  section.steps a.button {
+    font-size: 16px !important;
+  }
 }
 
 .social-platform {
@@ -1029,7 +1050,7 @@ section.steps ul li .text {
 
 .page-banner {
   width: 100%;
-  height: 15rem;
+  height: 26rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1133,6 +1154,7 @@ section.steps ul li .text {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: 0 0 0 0;
   }
 }
 
@@ -1215,11 +1237,12 @@ section.content ul {
 section.content ol li,
 section.content ul li {
   margin-bottom: 10px;
+  line-height: 32px;
 }
 
 section.content ul.segmented-content li {
   display: inline-block;
-  line-height: 25px;
+  line-height: 32px;
   margin-bottom: 20px;
 }
 
@@ -1244,7 +1267,7 @@ section.content .inner-title span.text {
 section.content .content span {
   display: block;
   margin-bottom: 5px;
-  line-height: 25px;
+  line-height: 32px;
 }
 
 section.content .sub-title {
@@ -1284,6 +1307,10 @@ section.content .title {
     font-weight: 800;
     margin-bottom: 2rem;
   }
+}
+
+section.content p {
+  line-height: 32px;
 }
 
 section.content p.bold {
