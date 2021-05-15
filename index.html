@@ -149,30 +149,35 @@
         <div class="container">
           <div class="wrap">
             <div class="copy">
-              Copyright © <span id="year"></span> All rights reserved.
+              Copyright © <span id="year"></span><span id="year"></span> All
+              rights reserved.
             </div>
             <div class="social">
               <ul>
                 <li>
-                  <a target="_blank" href=""
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/internsvoluntee"
                     ><img src="images/Facebook.svg" alt=""
                   /></a>
                 </li>
-                <li>
+                <!-- <li>
                   <a target="_blank" href=""
                     ><img src="images/Instagram.svg" alt=""
                   /></a>
-                </li>
+                </li> -->
                 <li>
-                  <a target="_blank" href=""
+                  <a
+                    target="_blank"
+                    href="https://www.twitter.com/intern_global"
                     ><img src="images/Twitter.svg" alt=""
                   /></a>
                 </li>
-                <li>
+                <!-- <li>
                   <a target="_blank" href=""
                     ><img src="images/LinkedIN.svg" alt=""
                   /></a>
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>
@@ -191,6 +196,8 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script>
+      document.getElementById('year').innerHTML = new Date().getFullYear();
+
       $('.bugger-menu ').click(function () {
         $('.mobile-header').toggle();
       });

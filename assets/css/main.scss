@@ -298,7 +298,7 @@ header {
 }
 
 .our-services {
-  padding: 70px 0 70px 0;
+  padding: 70px 0 0px 0;
   background: #ffffff;
   text-align: center;
   .sub-title {
@@ -496,6 +496,160 @@ header {
     }
   }
 }
+
+.welcome {
+  padding: 70px 0 70px 0;
+  background: #fbfbfb;
+  text-align: center;
+  .sub-title {
+    padding: 10px 30px;
+    display: inline-block;
+    color: $brand-color;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    @media (max-width: 991px) {
+      padding: 0px 30px;
+      margin-bottom: 0;
+    }
+  }
+  .title {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 4rem;
+    @media (max-width: 991px) {
+      line-height: 40px;
+      width: 100%;
+      font-size: 20px;
+      font-weight: 800;
+      margin-bottom: 2rem;
+    }
+  }
+  .content-wrap {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+  }
+}
+
+.about-us {
+  padding: 70px 0 70px 0;
+  background: #fbfbfb;
+  text-align: center;
+  .cont-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    @media (max-width: 991px) {
+      flex-wrap: wrap;
+    }
+  }
+  .sections {
+    width: 47%;
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+    .title {
+      text-align: justify;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      margin: auto;
+      margin-bottom: 3rem;
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 10%;
+        border-top: 2px solid $brand-color;
+        left: 0;
+      }
+      &.vision {
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+        display: inline-block;
+        @media (max-width: 991px) {
+          margin-top: 1rem;
+        }
+        &::after {
+          width: 20%;
+        }
+      }
+      @media (max-width: 991px) {
+        line-height: 40px;
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 2rem;
+        &.vision {
+          font-size: 20px;
+        }
+      }
+    }
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      text-align: justify;
+      @media (max-width: 991px) {
+        width: 100%;
+      }
+    }
+    blockquote {
+      border-top: 1px solid #efefef;
+      border-bottom: 1px solid #efefef;
+      padding: 40px 0;
+      font-style: italic;
+      @media (max-width: 991px) {
+        padding: 20px 0;
+        margin-bottom: 2rem;
+      }
+    }
+    .ceo {
+      display: flex;
+      justify-content: center;
+      margin: 4rem 0 20px 0;
+      flex-wrap: nowrap;
+      @media (max-width: 991px) {
+        margin: 2rem 0 20px 0;
+      }
+      .img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-right: 10px;
+      }
+    }
+    .text {
+      width: 100%;
+      font-weight: 600;
+      text-align: center;
+      font-size: 13px;
+      margin-bottom: 4rem;
+      @media (max-width: 991px) {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+
 .map {
   margin-top: 2rem;
   iframe {
@@ -548,6 +702,13 @@ section.steps {
       margin-left: 20px;
       font-size: 23px;
     }
+  }
+  p {
+    text-align: justify;
+  }
+  .table-wrap {
+    width: 100%;
+    overflow: auto;
   }
   table {
     border-collapse: collapse;
@@ -888,11 +1049,12 @@ section.steps {
 
 .event {
   background: #fff;
+  padding: 4rem 0 0rem 0;
   .event-wrap {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding: 5rem 0;
+    padding: 3rem 0;
     @media (max-width: 991px) {
       flex-direction: column;
       padding: 0 0 0 0;
@@ -907,9 +1069,9 @@ section.steps {
         color: $brand-color;
         font-weight: 800;
         font-size: 19px;
-        margin-top: 7rem;
+        margin-top: 0rem;
         @media (max-width: 991px) {
-          margin-top: 0rem;
+          margin-top: 3rem;
         }
         span {
           display: inline-block;
@@ -926,6 +1088,10 @@ section.steps {
         line-height: 32px;
         width: 100%;
         margin-bottom: 40px;
+      }
+      p {
+        font-size: 16px;
+        text-align: justify;
       }
     }
     .image {
@@ -956,6 +1122,7 @@ section.content {
     li {
       margin-bottom: 10px;
       line-height: 32px;
+      text-align: justify;
     }
   }
   ul.segmented-content {
@@ -984,6 +1151,7 @@ section.content {
       display: block;
       margin-bottom: 5px;
       line-height: 32px;
+      text-align: justify;
     }
   }
   .sub-title {
@@ -1019,6 +1187,7 @@ section.content {
   }
   p {
     line-height: 32px;
+    text-align: justify;
     &.bold {
       font-weight: 600;
     }
