@@ -630,7 +630,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 
 .welcome {
   padding: 70px 0 70px 0;
-  background: #fbfbfb;
+  background: #f6fbfa;
   text-align: center;
 }
 
@@ -675,11 +675,12 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 .welcome .content-wrap {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
   text-align: center;
   width: 60%;
   margin: auto;
   margin-bottom: 40px;
+  font-size: 19px;
+  line-height: 32px;
 }
 
 @media (max-width: 991px) {
@@ -1418,6 +1419,7 @@ section.steps a.button-header {
   line-height: 32px;
   width: 100%;
   margin-bottom: 40px;
+  text-align: justify;
 }
 
 .event .event-wrap .content p {

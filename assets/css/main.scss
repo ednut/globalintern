@@ -499,7 +499,7 @@ header {
 
 .welcome {
   padding: 70px 0 70px 0;
-  background: #fbfbfb;
+  background: #f6fbfa;
   text-align: center;
   .sub-title {
     padding: 10px 30px;
@@ -534,11 +534,12 @@ header {
   .content-wrap {
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
     text-align: center;
     width: 60%;
     margin: auto;
     margin-bottom: 40px;
+    font-size: 19px;
+    line-height: 32px;
     @media (max-width: 991px) {
       width: 100%;
     }
@@ -1088,6 +1089,7 @@ section.steps {
         line-height: 32px;
         width: 100%;
         margin-bottom: 40px;
+        text-align: justify;
       }
       p {
         font-size: 16px;
