@@ -1353,7 +1353,13 @@ section.steps a.button-header {
 
 .event {
   background: #fff;
-  padding: 4rem 0 0rem 0;
+  padding: 2rem 0 0rem 0;
+}
+
+@media (max-width: 991px) {
+  .event {
+    padding: 2rem 0 0rem 0;
+  }
 }
 
 .event .event-wrap {
@@ -1367,7 +1373,7 @@ section.steps a.button-header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
 
 @media (max-width: 991px) {
@@ -1422,6 +1428,15 @@ section.steps a.button-header {
   text-align: justify;
 }
 
+.event .event-wrap .content .text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 32px;
+  width: 100%;
+  text-align: justify;
+}
+
 .event .event-wrap .content p {
   font-size: 16px;
   text-align: justify;
@@ -1448,6 +1463,56 @@ section.steps a.button-header {
   }
 }
 
+.event .event-wrap.full {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.event .event-wrap.full .content {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .event .event-wrap.full .content {
+    width: 100%;
+  }
+}
+
+.event.full {
+  padding: 0;
+}
+
+@media (max-width: 991px) {
+  .event.full {
+    padding: 1rem 0 0rem 0;
+  }
+}
+
+.event.full .image {
+  text-align: center;
+}
+
+.event.full .image img {
+  width: 70%;
+  height: 100%;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 991px) {
+  .event.full .image img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .event.full .image {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 section.content {
   padding: 2rem 0 5rem 0;
 }
@@ -1467,6 +1532,10 @@ section.content ul li {
   margin-bottom: 10px;
   line-height: 32px;
   text-align: justify;
+}
+
+section.content p {
+  font-size: 19px;
 }
 
 section.content ul.segmented-content li {
@@ -1504,8 +1573,8 @@ section.content .sub-title {
   padding: 10px 30px;
   display: inline-block;
   color: #33ba9c;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 800;
+  font-size: 19px;
   border-radius: 10px;
   text-align: center;
   display: block;
@@ -1835,6 +1904,7 @@ footer .wrap .social ul li a img {
 .testimonials .testimonial-wrapper {
   width: 80%;
   margin: auto;
+  padding-top: 3rem;
 }
 
 .testimonials .testimonial-wrapper .img {
