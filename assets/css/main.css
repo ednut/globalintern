@@ -1922,12 +1922,15 @@ footer .wrap .social ul li a img {
   width: 20%;
   height: auto;
   margin-bottom: 1rem;
+  margin-top: 0;
 }
 
 @media (max-width: 991px) {
   .testimonials .pierrine {
     width: 100% !important;
     height: 53px !important;
+    margin-top: 2rem !important;
+    margin-bottom: 0;
   }
 }
 

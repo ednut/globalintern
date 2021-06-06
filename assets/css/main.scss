@@ -1482,9 +1482,12 @@ footer {
     width: 20%;
     height: auto;
     margin-bottom: 1rem;
+    margin-top: 0;
     @media (max-width: 991px) {
       width: 100% !important;
       height: 53px !important;
+      margin-top: 2rem !important;
+      margin-bottom: 0;
     }
   }
   .swiper-button-next:after,
