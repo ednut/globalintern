@@ -106,6 +106,12 @@
                 </li>
                 <li
                   class="hide-on-mobile"
+                  ng-class="{ current: isActive('/events')}"
+                >
+                  <a ui-sref="services">Events</a>
+                </li>
+                <li
+                  class="hide-on-mobile"
                   ng-class="{ current: isActive('/be-a-partner')}"
                 >
                   <a ui-sref="be-a-partner">Be a partner</a>
@@ -140,6 +146,9 @@
           </li>
           <li ng-class="{ current: isActive('/services')}">
             <a ui-sref="services">Services</a>
+          </li>
+          <li ng-class="{ current: isActive('/events')}">
+            <a ui-sref="services">Events</a>
           </li>
           <li ng-class="{ current: isActive('/be-a-partner')}">
             <a ui-sref="be-a-partner">Be a partner</a>
@@ -222,7 +231,7 @@
 
       $(function () {
         $('#myDiv').floatingWhatsApp({
-          phone: '2348035258679',
+          phone: '2349134442145',
           popupMessage: 'Hello, how can we help you?',
           showPopup: true,
           showOnIE: false
