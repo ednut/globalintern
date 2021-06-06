@@ -1924,6 +1924,12 @@ footer .wrap .social ul li a img {
   margin-bottom: 1rem;
 }
 
+@media (max-width: 991px) {
+  .testimonials .pierrine {
+    width: 15%;
+  }
+}
+
 .testimonials .swiper-button-next:after,
 .testimonials .swiper-button-prev:after {
   color: #33ba9c;
