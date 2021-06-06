@@ -43,6 +43,11 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
       templateUrl: 'partials/be-a-partner.html'
     })
 
+    .state('events', {
+      url: '/events',
+      templateUrl: 'partials/events.html'
+    })
+
     .state('prep-to-vitual-work', {
       url: '/prep-to-vitual-work',
       templateUrl: 'partials/prep-to-vitual-work.html'

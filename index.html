@@ -29,6 +29,10 @@
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link
+      rel="stylesheet"
+      href="assets/floating-whatsapp/floating-wpp.min.css"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -52,6 +56,10 @@
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
     />
   </head>
   <body ng-controller="generalController">
@@ -188,12 +196,14 @@
 
     <!-- <script src="assets/js/jquery.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="assets/js/angularjs/angular.min.js"></script>
     <script src="assets/js/angularjs/angular-animate.js"></script>
     <script src="assets/js/angularjs/angular-ui-router.min.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/controllers/generalController.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/floating-whatsapp/floating-wpp.min.js"></script>
 
     <script>
       document.getElementById('year').innerHTML = new Date().getFullYear();
@@ -208,6 +218,15 @@
 
       $('.mobile-header ul li ').click(function () {
         $('.mobile-header').toggle();
+      });
+
+      $(function () {
+        $('#myDiv').floatingWhatsApp({
+          phone: '2348035258679',
+          popupMessage: 'Hello, how can we help you?',
+          showPopup: true,
+          showOnIE: false
+        });
       });
     </script>
   </body>
