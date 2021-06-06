@@ -1926,7 +1926,8 @@ footer .wrap .social ul li a img {
 
 @media (max-width: 991px) {
   .testimonials .pierrine {
-    width: 15%;
+    width: 100% !important;
+    height: 53px !important;
   }
 }
 
