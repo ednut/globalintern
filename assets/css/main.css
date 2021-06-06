@@ -1906,22 +1906,10 @@ footer .wrap .social ul li a img {
   margin-bottom: 0.5rem;
 }
 
-@media (max-width: 991px) {
-  .testimonials .fuseboxx {
-    width: 30%;
-  }
-}
-
 .testimonials .curve {
   width: 14%;
   height: auto;
   margin-bottom: 0.5rem;
-}
-
-@media (max-width: 991px) {
-  .testimonials .curve {
-    width: 20%;
-  }
 }
 
 .testimonials .averti {
@@ -1930,22 +1918,10 @@ footer .wrap .social ul li a img {
   margin-bottom: 0.5rem;
 }
 
-@media (max-width: 991px) {
-  .testimonials .averti {
-    width: 18%;
-  }
-}
-
 .testimonials .pierrine {
   width: 20%;
   height: auto;
   margin-bottom: 1rem;
-}
-
-@media (max-width: 991px) {
-  .testimonials .pierrine {
-    width: 25%;
-  }
 }
 
 .testimonials .swiper-button-next:after,
